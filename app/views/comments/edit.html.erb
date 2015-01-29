@@ -1,32 +1,31 @@
-<h1>Edit Comment</h1>
+<h1 id='add-comment'>Edit Comment</h1>
 
 <%= form_for @comment do |f| %>
-	<p>
+
+<div class="new-comment-container">
+
+	<h2>
 		<%= f.label :title %><br>
 		<%= f.text_field :title %>
-	</p>
+	</h2>
 
-	<p>
+	<h2>
 		<%= f.label :venue_name %><br>
 		<%= f.text_field :venue_name %>
-	</p>
+	</h2>
 
-	<p>
+	<h2>
 		<%= f.label :city_and_state %><br>
 		<%= f.text_field :city_and_state %>
-	</p>
+	</h2>
 
-	<p>
-		<%= f.label :user_name %><br>
-		<%= f.text_field :user_name %>
-	</p>
-
-	<p>
+	<h2>
 		<%= f.label :body %><br>
 		<%= f.text_area :body %>
-	</p>
+	</h2>
 
-	<p>
+	<h2>
 		<%= f.submit "Update Comment" %>
-	</p>
+	</h2>
 <% end %>
+</div>
