@@ -1,0 +1,45 @@
+.comments-container {
+	font-family: 'Montserrat', sans-serif;
+	width: 600px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2em;
+	background-color: rgba(255, 255, 255, 0.7);
+	padding-bottom: .5em;
+	padding-top: .05em;
+}
+
+.comments {
+/*	font-family: 'Montserrat', sans-serif;
+	width: 600px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2em;
+	background-color: rgba(255, 255, 255, 0.7);
+	padding-bottom: .5em;
+	padding-top: .05em;*/
+}
+
+.new_comment {
+	text-align: center;
+	height: 30px;
+}
+
+.new-comment-container {
+   color: rgba(255, 255, 255, .75);
+}
+
+.add-a-comment {
+	margin-bottom: 2em;
+	padding-bottom: 2em;
+}
+
+
+
+
+
+
+
+

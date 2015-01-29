@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user_id: 1
+  venue_id: 1
+  upvote: 1
+  downvote: 1
+
+two:
+  user_id: 1
+  venue_id: 1
+  upvote: 1
+  downvote: 1

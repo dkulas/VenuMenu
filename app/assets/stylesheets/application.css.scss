@@ -1,0 +1,157 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ html { 
+
+ 	background: image-url("bg4.jpg") no-repeat center center fixed; 
+ 	-webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+ 	background-size: cover;
+ }
+
+ .logo img {
+ 	padding-top: 20px;
+ 	display: block;
+	width: 250px;
+
+ }
+
+ header {
+ 	text-align:center;
+ 	padding:3px;
+ }
+
+ .logo {
+ 	text-align: left;
+ 	float: left;
+ 	width: 33%;
+    height: auto;
+ }
+
+ .buttons {
+ 	float: right;
+ 	width:33.33%;
+ }
+
+ .buttons a {
+ 	float: right;
+ 	margin: .6em;
+ 	padding: 15px;
+ 	cursor: pointer;
+ 	text-decoration: none;
+ 	background-color: rgba(255, 255, 255, 0);
+	border: 2px solid rgba(255, 255, 255, 0);
+ 	color: #ffffff;
+ 	font-size: 18px;
+ 	font-family: georgia;
+ 	font-style: italic;
+ }
+
+.buttons a:hover {
+  	border-style: solid;
+	background-color: rgba(255, 255, 255, 0.3);
+	border: 2px solid #ffffff;
+	font-family: georgia;
+	font-style: italic;
+ }
+
+.buttons a:focus {
+  	border-style: solid;
+	background-color: rgba(255, 255, 255, 0.3);
+	border: 2px solid #ffffff;
+	font-family: georgia;
+	font-style: italic;
+ }
+ .search {
+ 	display: inline-block;
+ 	font-size: 18px;
+ 	line-height: 1.5;
+ 	vertical-align: bottom;
+ 	font-style: none;
+ 	width:33.33%;
+ }
+
+ form {
+ 	position: center;
+ }
+
+input[type=search] {
+	text-align: center;
+	float: center;
+	margin: .6em;
+	padding: 15px;
+	font-size: 18px;
+  	border-style: solid;
+	background-color: rgba(255, 255, 255, 0.3);
+	border: 2px solid rgba(255, 255, 255, 0);
+	font-family: georgia;
+	font-style: italic;
+ }
+
+input[type=search]:hover {
+  	border-style: solid;
+	background-color: rgba(255, 255, 255, 0.3);
+	border: 2px solid #ffffff;
+	font-family: georgia;
+	font-style: italic;
+ }
+
+ input[type=search]:focus {
+  	border-style: solid;
+	background-color: rgba(255, 255, 255, 0.3);
+	border: 2px solid #ffffff;
+	font-family: georgia;
+	font-style: italic;
+ }
+
+input:focus, textarea:focus {
+    outline: none;
+}
+
+
+
+#venue-search {  
+ 	color: #ffffff; 
+ }
+
+.results-list {
+	text-align: center;
+	list-style: none;
+	padding: 0;
+}
+
+.content {
+	margin-top: 3em;
+}
+
+input[type=submit].hide,
+button[type=submit].hide {
+    display: block;
+    position: absolute;
+    visibility: hidden;
+}
+
+input::-webkit-input-placeholder {
+   color: rgba(255, 255, 255, .75);
+}
+
+.displayName {
+	text-align: center;
+	text-decoration: none;
+	list-style: none;
+}
+
