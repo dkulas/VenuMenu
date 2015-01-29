@@ -49,7 +49,7 @@ function displayResults( response, input ){
     resultContainer.append($("<h2></h2>").addClass("displayName").html(venueHeader));
     resultContainer.append($("<p></p>").addClass("street").html(street));
     resultContainer.append($("<p></p>").addClass("metroArea").html(metroArea));
-    resultContainer.append($("<a></a>").addClass("website").attr('href', website).html(website));
+    resultContainer.append($("<a target='_blank'></a>").addClass("website").attr('href', website).html(website));
 
     $(".results-list").append(resultContainer);
  }

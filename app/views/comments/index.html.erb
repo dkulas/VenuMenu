@@ -1,9 +1,9 @@
 
-<%= link_to "Add a Comment", new_comment_path %>
+<h1><%= link_to "Add a Comment", new_comment_path %></h1>
 <div class="comments-container">
 	<h1 class="add-comment">
 	</h1>
-	<div class="comments">
+	<div class="venue-results">
 		<% @comments.each do |comment| %>
 		<h1><%= comment.title %></h1>
 		<h2><%= comment.venue_name %></h2>

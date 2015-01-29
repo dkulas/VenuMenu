@@ -11,7 +11,7 @@
 }
 
 .comments {
-/*	font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	width: 600px;
 	text-align: center;
 	margin-left: auto;
@@ -19,7 +19,7 @@
 	margin-bottom: 2em;
 	background-color: rgba(255, 255, 255, 0.7);
 	padding-bottom: .5em;
-	padding-top: .05em;*/
+	padding-top: .05em;
 }
 
 .new_comment {
@@ -28,7 +28,10 @@
 }
 
 .new-comment-container {
-   color: rgba(255, 255, 255, .75);
+   background-color: rgba(0, 0, 0, .75);
+   width: 700px;
+   margin: auto;
+   color: white;
 }
 
 .add-a-comment {
@@ -36,7 +39,11 @@
 	padding-bottom: 2em;
 }
 
+#add-comment {
+	text-align: center;
+	color: white;
 
+}
 
 
 

@@ -134,6 +134,11 @@ input:focus, textarea:focus {
 	padding: 0;
 }
 
+[placeholder]:focus::-webkit-input-placeholder {
+  transition: opacity 0.25s 0.25s ease; 
+  opacity: 0;
+}
+
 .content {
 	margin-top: 3em;
 }
@@ -150,8 +155,9 @@ input::-webkit-input-placeholder {
 }
 
 .displayName {
-	text-align: center;
+	text-align: left;
 	text-decoration: none;
 	list-style: none;
+	color: #03B9BE;
 }
 
