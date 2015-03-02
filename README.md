@@ -3,6 +3,10 @@ VenuMenu App
 CORE Function
 	- Rate and comment on specific venues
 
+Link to deployed web-app:
+
+http://venu-menu.herokuapp.com/
+
 MVP
 	- A user can login w/Twitter or use the app w/out signing in but cannot create watchlists
 	- A user can search venues
